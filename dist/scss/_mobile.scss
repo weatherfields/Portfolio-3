@@ -82,6 +82,37 @@
 // phones
 @include mediaSm {
 
+    #email {
+        max-width: 100vw;
+    }
+
+    #email-txt {
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    #phone-txt {
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #address-txt {
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #my-name-bio {
+        margin-top: 10vh;
+    }
+
+    #about {
+        padding: 1rem;
+    }
+
+    .bio {
+        font-size: 0.8em;
+        text-align: initial;
+    }
 
     .projects {
         grid-template-columns: 1fr;
