@@ -364,8 +364,10 @@ h4 {
   #about {
     padding: 1rem; }
   .bio {
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: initial; }
+    .bio-image {
+      margin-top: 0px; }
   .projects {
     grid-template-columns: 1fr; }
   main#home h1 {
